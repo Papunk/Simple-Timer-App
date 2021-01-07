@@ -13,6 +13,8 @@
 		EB6CC4C625A77789006509E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB6CC4C425A77789006509E1 /* Main.storyboard */; };
 		EB6CC4C825A7778A006509E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB6CC4C725A7778A006509E1 /* Assets.xcassets */; };
 		EB6CC4CB25A7778A006509E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB6CC4C925A7778A006509E1 /* LaunchScreen.storyboard */; };
+		EB6CC4D525A77A15006509E1 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6CC4D425A77A15006509E1 /* Timer.swift */; };
+		EB6CC4D825A77A77006509E1 /* TimerManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6CC4D725A77A77006509E1 /* TimerManger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		EB6CC4C725A7778A006509E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB6CC4CA25A7778A006509E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB6CC4CC25A7778A006509E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB6CC4D425A77A15006509E1 /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		EB6CC4D725A77A77006509E1 /* TimerManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerManger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				EB6CC4BE25A77789006509E1 /* AppDelegate.swift */,
 				EB6CC4C025A77789006509E1 /* SceneDelegate.swift */,
 				EB6CC4C225A77789006509E1 /* ViewController.swift */,
+				EB6CC4D725A77A77006509E1 /* TimerManger.swift */,
 				EB6CC4C425A77789006509E1 /* Main.storyboard */,
 				EB6CC4C725A7778A006509E1 /* Assets.xcassets */,
 				EB6CC4C925A7778A006509E1 /* LaunchScreen.storyboard */,
 				EB6CC4CC25A7778A006509E1 /* Info.plist */,
+				EB6CC4D425A77A15006509E1 /* Timer.swift */,
 			);
 			path = SimpleTimerApp;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 				EB6CC4C325A77789006509E1 /* ViewController.swift in Sources */,
 				EB6CC4BF25A77789006509E1 /* AppDelegate.swift in Sources */,
 				EB6CC4C125A77789006509E1 /* SceneDelegate.swift in Sources */,
+				EB6CC4D525A77A15006509E1 /* Timer.swift in Sources */,
+				EB6CC4D825A77A77006509E1 /* TimerManger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

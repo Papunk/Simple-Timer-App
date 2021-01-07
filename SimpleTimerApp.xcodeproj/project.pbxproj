@@ -63,14 +63,22 @@
 				EB6CC4BE25A77789006509E1 /* AppDelegate.swift */,
 				EB6CC4C025A77789006509E1 /* SceneDelegate.swift */,
 				EB6CC4C225A77789006509E1 /* ViewController.swift */,
-				EB6CC4D725A77A77006509E1 /* TimerManger.swift */,
 				EB6CC4C425A77789006509E1 /* Main.storyboard */,
+				EB6CC4DD25A77B6F006509E1 /* TimerManagement */,
 				EB6CC4C725A7778A006509E1 /* Assets.xcassets */,
 				EB6CC4C925A7778A006509E1 /* LaunchScreen.storyboard */,
 				EB6CC4CC25A7778A006509E1 /* Info.plist */,
-				EB6CC4D425A77A15006509E1 /* Timer.swift */,
 			);
 			path = SimpleTimerApp;
+			sourceTree = "<group>";
+		};
+		EB6CC4DD25A77B6F006509E1 /* TimerManagement */ = {
+			isa = PBXGroup;
+			children = (
+				EB6CC4D725A77A77006509E1 /* TimerManger.swift */,
+				EB6CC4D425A77A15006509E1 /* Timer.swift */,
+			);
+			path = TimerManagement;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
